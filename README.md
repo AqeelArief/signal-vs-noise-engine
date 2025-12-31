@@ -1,6 +1,6 @@
 # **Signal vs Noise Engine**
 
-## 📌 Overview
+##  Overview
 The **Signal vs Noise Engine** is a lightweight data analysis system that processes daily personal metrics to identify meaningful behavioral changes while filtering out normal day-to-day variation.  
 
 This project focuses on:  
@@ -13,7 +13,7 @@ It is inspired by real-world **edge AI** and monitoring systems.
 
 ---
 
-## 🎯 Motivation
+## Motivation
 Most personal data (steps, sleep, screen time, etc.) is noisy — not every change is important.  
 
 This project explores how a system can:  
@@ -26,7 +26,7 @@ This project explores how a system can:
 
 ---
 
-## 🧠 How It Works (Project Phases)
+##  How It Works (Project Phases)
 
 ### **Phase 1 — Baseline Modeling**
 - Loads daily time-series data from a CSV file  
@@ -59,19 +59,24 @@ This project explores how a system can:
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 signal-vs-noise-engine/
 │
 ├── daily_data.csv # Sample daily metrics
+
 ├── explore_data.py # Phase 1: baseline modeling
+
 ├── detect_anomalies.py # Phase 2: anomaly detection
+
 ├── explain_patterns.py # Phase 3: explanation logic
+
 ├── alert_prioritization.py # Phase 4: alert ranking & suppression
+
 └── README.md
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - **Python**  
 - **Pandas**  
 - Statistical analysis (mean, standard deviation, z-scores)  
@@ -79,7 +84,7 @@ signal-vs-noise-engine/
 
 ---
 
-## 🧪 Example Use Cases
+## Example Use Cases
 - Personal wellness monitoring  
 - Habit and productivity analysis  
 - Edge AI–style local analytics  
@@ -87,7 +92,7 @@ signal-vs-noise-engine/
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 - Visualization dashboards  
 - Real-time data ingestion  
 - Lightweight ML models  

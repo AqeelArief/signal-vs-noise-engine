@@ -61,7 +61,8 @@ This project explores how a system can:
 
 ## Project Structure
 signal-vs-noise-engine/
-│
+
+
 ├── daily_data.csv # Sample daily metrics
 
 ├── explore_data.py # Phase 1: baseline modeling
